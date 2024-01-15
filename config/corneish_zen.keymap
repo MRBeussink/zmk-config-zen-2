@@ -16,13 +16,13 @@
                 default_layer {
                         label = "TARMAK3";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  F  |  J  |  B  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  R  |  D  |  T  |  G  |   |  M  |  N   |  E  |  L  |  ;  |  '   |
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  U   |  I  |  Y  |  ;  | BKSP |
+// | CTRL |  A  |  R  |  D  |  T  |  G  |   |  M  |  N   |  E  |  L  |  O  |  '   |
 // | SHFT |  Z  |  X  |  C  |  J  |  V  |   |  K  |  H   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp J &kp B   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp L   &kp SEMI &kp SQT
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp U  &kp I     &kp Y   &kp SEMI &kp BSPC
+   &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp L   &kp O    &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
