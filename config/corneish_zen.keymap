@@ -14,17 +14,17 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        label = "TARMAK3";
+                        label = "COLEMAK";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  U   |  I  |  Y  |  ;  | BKSP |
-// | CTRL |  A  |  R  |  D  |  T  |  G  |   |  M  |  N   |  E  |  L  |  O  |  '   |
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
+// | CTRL |  A  |  R  |  D  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
 // | SHFT |  Z  |  X  |  C  |  J  |  V  |   |  K  |  H   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp U  &kp I     &kp Y   &kp SEMI &kp BSPC
-   &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp L   &kp O    &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
+   &kp ESC   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
+   &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp LCTL
+                  &kp LGUI &mo 2 &kp SPACE   &kp RET &mo 1 &kp RALT
                         >;
                 };
                 lower_layer {
